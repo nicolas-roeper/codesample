@@ -2,8 +2,7 @@
 $(document).ready(function(){
 	$('#footereng').empty(); // empty footer content
 	$('#footereng').append('<p align="center"><a href="http://olgaszwajgier.com/"><font size="3" color="#8080FF" face="Lucida Sans Unicode"><strong>Welcome Page</strong></font></a><strong> | </strong><a href="http://olgaszwajgier.com/labor.html"><strong><font size="3" color="#8080FF" face="Lucida Sans Unicode">Laboratory of Voice</font></strong></a><strong> | </strong><a href="http://olgaszwajgier.com/multi.html"><strong><font size="3" color="#8080FF" face="Lucida Sans Unicode">Gallary, Multi-Media </font></strong></a><strong> | <a href="videng.html"><font size="3" color="#8080FF" face="Lucida Sans Unicode">Video</font></a><strong> | </strong><a href="http://olgaszwajgier.com.press.html/"><strong><font size="3" color="#8080FF" face="Lucida Sans Unicode">Press</font></strong></a><strong> | </strong><a href="http://olgaszwajgier.com.news.html/"><strong><font size="3" color="#8080FF" face="Lucida Sans Unicode">News</font></strong></a><strong> | </strong><a href="http://olgaszwajgier.com.index.html/"><strong><font size="3" color="#8080FF" face="Lucida Sans Unicode">Polska wersja</font></strong></a></p>'); // replace footer content with face book icon
-	});
-$(document).ready(function(){
-$('#menueng').empty(); // empty footer content
-$('#menueng').append('<p align="center"><a href="eng.html">Welcome Page</a> | <a href="labor.html">Laboratory of Voice</a> | <a href="multi.html">Gallery, Multi-Media</a> | <a href="video.html">Video</a> | <a href="press.html">Press</a> | <a href="news.html">News</a> | <a href="index.html">Polska wersja</a></p>   '); // replace footer content with face book icon
+
+	$('#menueng').empty(); // empty footer content
+	$('#menueng').append('<p align="center"><a href="eng.html">Welcome Page</a> | <a href="labor.html">Laboratory of Voice</a> | <a href="multi.html">Gallery, Multi-Media</a> | <a href="video.html">Video</a> | <a href="press.html">Press</a> | <a href="news.html">News</a> | <a href="index.html">Polska wersja</a></p>   '); // replace footer content with face book icon
 });
