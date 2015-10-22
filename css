@@ -67,7 +67,7 @@ header {
 }
 	/* class to changes the laboratory effects on calendar*/
 .concert-day { 	
-font-weight: bold;
+	font-weight: bold;
 	background: #ffc0db; /*#b794f3; /*#94a9f3; /*purple background on each day*/
 	color: #FF0;  /* color of text */
 }
