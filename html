@@ -7,6 +7,8 @@
 <meta charset="utf-8">
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+
+<!-- Additional style applied to moving toolbar --> 
 <style> 
 body{ font: inherit; margin: 0px; text-align: center; } 
 
@@ -34,7 +36,7 @@ body{ font: inherit; margin: 0px; text-align: center; }
 	margin-top: 0px;
 	background:#FFF;
 } 
-</style> <script> var pagetop, menu, yPos; function yScroll(){ pagetop = document.getElementById('pagetop'); menu = document.getElementById('menu'); yPos = window.pageYOffset; if(yPos > 155){ pagetop.style.height = "36px"; pagetop.style.paddingTop = "8px"; menu.style.height = "0px"; } else { pagetop.style.height = "3px"; pagetop.style.paddingTop = "36px"; menu.style.height = "50px"; } } window.addEventListener("scroll", yScroll); </script>
+</style> 
 
 
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
@@ -48,7 +50,6 @@ body{ font: inherit; margin: 0px; text-align: center; }
 
   ga('create', 'UA-56751981-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 <title>Olag Szwajgier</title>
@@ -62,11 +63,14 @@ body{ font: inherit; margin: 0px; text-align: center; }
 </head>
 
 <body>
+<!-- toolbar -->
 <div id="pagetop" background="#7D97F0"><p><a href="index.php">STRONA GŁÓWNA</a>&nbsp;|&nbsp;<a href="labor.php">WARSZTATY WOKALNE</a>&nbsp;|&nbsp;<a href="multi.php">GALERIA</a><!--&nbsp;|&nbsp;<a href="../backup_11_13_2014/newpage_test/videng.html">PRASA</a>&nbsp;|&nbsp;
 <a href="../backup_11_13_2014/newpage_test/videng.html">WIADOMOSCI</a>-->&nbsp;|&nbsp;
 <a href="biopl.php">O OLDZE</a>&nbsp;|&nbsp;
 <!--<a href="storepl.php">SKLEP</a>&nbsp;|&nbsp;-->
-<a href="eng.php">ENGLISH VERSION</a></p>  </div>  <div id="wrapper">
+<a href="eng.php">ENGLISH VERSION</a></p>  </div>  
+
+<div id="wrapper">  <!-- wrapper of code efected by toolbar -->
 
 <div class="container">
   <header>
@@ -76,6 +80,7 @@ body{ font: inherit; margin: 0px; text-align: center; }
 <nav>
       <ul>
         <li><a href="index.php">STRONA GŁÓWNA</a></li>
+        
         <li><a href="labor.php">WARSZTATY WOKALNE</a></li>
         <li><a href="multi.php">GALERIA</a></li>       
         <!--<li><a href="#">PRASA</a></li>
@@ -98,13 +103,13 @@ Koszt - 350 zł za weekend, lub przy płatności za 3 weekendy z góry - 900 zł
 Zapisy - tel. 600 318 850, również smsem.
 Miejsce zajęć będzie podane później, ponieważ jest zależne od ilości osób na zajęciach (chodzi o dobranie wielkości sali).</font></p>     
     </aside>
-  <!-- end .sidebar1 --></div>
+<!-- end .sidebar1 --></div>
   <article class="content">
   <br>
         <div align="center"></div>
-<!--<br>
+<!--
 <br>
-
+<br>
 
 <div align="center">
 
@@ -131,18 +136,19 @@ Miejsce zajęć będzie podane później, ponieważ jest zależne od ilości os�
         </td>
     </tr>
     <tr>
-    <td colspan="2" valign="top" width="100%"><br>
-    <br>
-    <p align="center"><font size="5" color="#8080FF" face="Georgia"><strong>Warsztaty wokalne&nbsp;&nbsp;-&nbsp; <i>Odkryj swój głos</i></strong></font><font size="3" face="Georgia"> </font></p></td>
+     <td colspan="2" valign="top" width="100%"><br>
+    	<br>
+    	<p align="center"><font size="5" color="#8080FF" face="Georgia"><strong>Warsztaty wokalne&nbsp;&nbsp;-&nbsp; <i>Odkryj swój głos</i></strong></font><font size="3" face="Georgia"> </font></p></td>
     </tr>
     
     <tr>
-                <td valign="top" width="50%">
+     <td valign="top" width="50%">
         
         <p><font size="3" face="Georgia">Krak<span style="font-family:Georgia;color:windowtext;
 mso-ansi-language:CS">ó</span>w</font><font size="3" face="Georgia"> <br>
-            <br>
-            <b>2015</b><br>
+        <br>
+        <b>2015</b>
+        <br>
 5 - 6 września<br>
 3 - 4 października<br>
 7 - 8 listopada<br>
@@ -167,7 +173,7 @@ justify"><font size="3" face="Georgia"> </font></p>-->
 left"><font size="3" face="Georgia">Warszawa i Nowe Kawkowo <br>
               <br>
               <b>2015</b><br>
-12 - 13 września <br>
+12 - 13 września<br>
 10 - 11 paździenika<br>
 14 - 15  listopada<br>
 <br>
@@ -190,9 +196,9 @@ tel. +48-606-994-366<br>
     <tr>
         <td colspan="2" align="justify">
        <!--<div id="sig" align="left">
-       
 <p align="right"><font size="3" color="#8080FF" face="Georgia">Olga
-        Szwajgier</font></p></div>--></td>
+        Szwajgier</font></p></div>-->
+        </td>
         
     </tr>
     <!--<tr>
@@ -211,17 +217,6 @@ tel. +48-606-994-366<br>
     </tr>-->
 
 </tbody></table>
-<!--<canvas align="center">
-<video width="560" height="315" controls>
-<source id="poster" type="image/jpg" src="//www.olgaszwajgier.com/videos/poster.jpg"></source>
-<source id="myVideo" type="video/flv" src="//www.olgaszwajgier.com/videos/Olga Szwajgier [...dźwięk jest fundamentem naszego istnienia...].mp4"> </source>
-<source id="flv" type="video/flv" src="//www.olgaszwajgier.com/videos/Olga Szwajgier [...dźwięk jest fundamentem naszego istnienia...].flv"> </source>
-<source type="video/webm" src="//www.olgaszwajgier.com/videos/Olga Szwajgier [...dźwięk jest fundamentem naszego istnienia...].webm"> </source>
-<source type="video/ogg" src="//www.olgaszwajgier.com/videos/Olga Szwajgier [...dźwięk jest fundamentem naszego istnienia...].ogg"> </source>
-
-<p align="center">Your user agent does not support the HTML5 Video element.</p>
-</video>
-</canvas>-->
 
 <br>
 <div align="center"></div>
@@ -241,18 +236,12 @@ tel. +48-606-994-366<br>
   
     <div class="tiptop-calendar-header" align="center"><br>
       <font size="3" color="#cab576" face="Palatino Linotype"><strong><i>Dźwięk to ruch, oddech i wibracja. Towarzyszy nam on od przyjścia na świat, a nawet wcześniej. Jest w nas i wokół 
-nas. Każdemu dźwiękowi przypisany jest określony kolor oraz centra energetyczne w naszym ciele.</i></strong></font> <a id="tiptop-calendar-header-month-id" class="tiptop-calendar-header-month"><strong></strong></a><!--<a id="tiptop-calendar-header-prev-button" class="tiptop-calendar-header-prev" href="/veranstaltungen-en-US/alle-veranstaltungen-en-US/kalender_monat/10/2014"><img src="themes/ustheme/images/us-link-arrow-prev.gif" alt="" title=""></a>
-							<a id="tiptop-calendar-header-next-button" class="tiptop-calendar-header-next" href="/veranstaltungen-en-US/alle-veranstaltungen-en-US/kalender_monat/12/2014"><img src="themes/ustheme/images/us-link-arrow-next.gif" alt="" title=""></a>-->
+nas. Każdemu dźwiękowi przypisany jest określony kolor oraz centra energetyczne w naszym ciele.</i></strong></font> 
   <br class="clear"></div>
 <br>
 <div id="footer" ><img src="images/spacer.png" height="30"><a href="https://pl-pl.facebook.com/pages/Olga-Szwajgier/158733454154684"><img src="images/facebook_olga.jpg" alt="Like Olga Szwajgier on Facebook" name="likeOlga"  id="likeOlga"></a>
  </div> 
-<aside>
-  
-  
-    </aside></div>                            
-<div class="tiptop-calendar-header" align="center"></div></div> </div>
-  </aside>
+
   <footer>
     <br>
 Designed by Nicolas Roeper
@@ -262,6 +251,6 @@ Designed by Nicolas Roeper
   </footer>
   <!-- end .container --></div>
   
-  </div id="wrapper">
+  </div id="wrapper"> <!-- End of wrapper -->
 </body>
 </html>
