@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+#sound {
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+	/* general id for text  within the quoted areas of the page */
+#quotes { 
+	font: Georgia, "Times New Roman", Times, serif; /* font type for text */
+	text-align: center; /* Alignment of text. */
+	}
+	/* general styling for text within the body of the text */
+body {  
+	/*font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;  /* body tag font type */
+	background: #7D97F0;  /* body tag background color */
+	margin: 0;  /* body tag margin size */
+	padding: 0;  /* body tag padding size*/
+	color: #000;  /* body tag text color */
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { 
+	margin: 0;  /* list margin size */
+	padding: 0;  /* list padding size*/
+	
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	/* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks */
+}
+a img {  /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling links (order to be as is)~~ */
+a:link {
+	color: #c0c0c0/*#D6D6D6*/;  /* color of link text */
+	text-decoration: underline; /* underlines of text for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;  /* color of link text after it was clicked */
+	text-decoration: underline;  /* underlines of text for quick visual identification */
+}
+a:hover, a:active, a:focus { /* for keyboard navigation to have the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ Fixed width container surrounds all other blocks ~~ */ 
+.container {
+	width: 960px; /* width of container */
+	background: #FFFFFF; /* background color of container */
+	margin: 0 auto; /* margin size of container */ /* note: the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ Header has no defined width. Allows for full width of your layout extention. ~~ */
+header {
+	background: #7D97F0;
+}
+  /* class to define effects on the laboratory calendar */
+.lab-day { 	
+	font-weight: bold;
+	/*background: #FF0; /*yellow background on each day*/
+	color: #FF0;
+}
+	/*changes the laboratory effects on calendar*/
+.lab-day2 { 	
+	font-weight: bold;
+	background: #94a9f3; /*#b794f3; /*#94a9f3; /*purple background on each day*/
+	color: #FF0; /* color of text */
+}
+	/* class to changes the laboratory effects on calendar*/
+.concert-day { 	
+font-weight: bold;
+	background: #ffc0db; /*#b794f3; /*#94a9f3; /*purple background on each day*/
+	color: #FF0;  /* color of text */
+}
+	/* class to effect calandar's display */
+.tiptop-calendar-table { 
+	alignment-adjust: middle; 
+	font-weight: bold;
+	}
+	
+/* ~~ These are the columns for the layout. ~~ */
+.sidebar1 {
+	float: left;   /* direction column will float */
+	width: 180px;  /* size of column */ 
+	background: /*#EADCAE*/;  /* background color of sidebar */
+	padding-bottom: 10px;  /* padding size of sidebar */
+}
+.content {
+	padding: 10px 0;  /* size of padding */
+	width: 600px;  /* define width */
+	float: left;  /* direction of float */
+}
+aside {
+	float: left;  /* direction column will float */
+	width: 180px;  /* size of column */
+	background: /*#EADCAE*/; /* background color of aside */
+	padding: 10px 0;  /* padding size of sidebar */
+}
+
