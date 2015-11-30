@@ -1,0 +1,19 @@
+Select a ticket:
+<select data-bind="option: tickets, optionsText: 'name', value: selectTicket"></select>
+<p data-bind="with: selectTicket">
+	You have chosen: <b data-bind="text: name"></b>
+<b data-bind: "text: name"></b>
+	$(<span data-bind="text: price"></span>)
+</p>
+
+<script type="text/javascript">
+	function TicketViewMode() {
+			this.tickets = [
+			{ name: "Ecomomy", price: 199.00 },
+			{ name: "Business", price: 599.00 },
+			{ name: "First Class", price: 1599.00 },
+		],
+		this.selectTicket = ko.observable();
+		this.restTicket = function() {this.chsenTicket(nul) }
+		ko.applyBindings(new TicketsViewModel());
+</script>
